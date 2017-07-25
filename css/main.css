@@ -1,0 +1,170 @@
+body {
+	font-family: "Metropolis Regular";
+	background-color: transparent;
+	position: relative;
+}
+
+.thumbnail {
+	padding: 0px;
+	border: 0px solid;
+}
+
+
+@font-face {
+	font-family: "Metropolis";
+	src: url("../fonts/metropolis-1920/metropolis-1920.otf");
+}
+
+
+@font-face {
+	font-family: "Metropolis Bold";
+	src: url("../fonts/metropolis-1920/Metropolis-Medium.otf");
+}
+
+@font-face {
+	font-family: "Metropolis Regular";
+	src: url("../fonts/metropolis-1920/Metropolis-Regular.otf");
+}
+
+
+.titulos {
+	font-family: "Metropolis Bold";
+	font-size: 2em;
+	padding: 2%;
+}
+
+.metropolis {
+	font-family: "Metropolis";
+}
+
+/* Colores */
+.naranja {
+	color: #ff4000;
+}
+
+.blanco {
+	color:#FFF;
+}
+
+
+
+/*Navbar*/
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #ff4000;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ff4000;
+}
+
+.navbar-default {
+	padding-top: 1%;
+	padding-right: 1%;
+	background-color: #ff4000;
+	border-color: #e7e7e7;
+	color: #FFF;
+	height: 65px;
+}
+
+
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.fa-home:before {
+	font-size: 1.5em;
+}
+
+.fa-female:before {
+	font-size: 1.5em;
+}
+
+.fa-briefcase:before {
+	font-size: 1.5em;
+}
+
+.fa-envelope:before {
+	font-size: 1.5em;
+}
+
+/* Home */
+.fondo-total {
+	background-image: url("../assets/img/chess-opaco.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+
+
+
+/*Acerca de mi*/
+
+
+
+
+.cv {
+	margin-top: 10%;
+}
+
+/* Seccion Home*/
+
+
+
+.letter-s{
+	letter-spacing: .2rem;
+}
+
+.home p {
+	font-size: 2em;
+}
+
+
+
+/* Sección Proyectos*/
+
+
+
+.fondo-gris {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.gris {
+	color: rgba(0, 0, 0, .8);
+}
+
+.skills {
+	background-color: #ff4000;
+}
+
+.btn-default {
+	background: #ff4000;
+}
+
+.btn {
+	padding: 1rem;
+}
+
+
+.mobil {
+	display: block;
+}
+
+footer.page-footer {
+	margin-top: 0px;
+	padding-top: 20px;
+	background-color: rgb(0, 0, 0);
+
+}
